@@ -1,7 +1,5 @@
 const nodemailer = require('nodemailer');
 
-// const defaultConfig = "smtp://nodemailer123test@gmail.com:nodemailer@smtp.gmail.com";
-
 const transporter = nodemailer.createTransport({
   pool: true,
   maxConnections: 8,
